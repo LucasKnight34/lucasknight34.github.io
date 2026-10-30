@@ -1,0 +1,109 @@
+<!doctype html>
+<!--
+  Support page for the App Store "Support URL". Replace knightgames.support@gmail.com
+  before publishing. Host this folder at the root of your developer website so app-ads.txt
+  is reachable at https://yourdomain/app-ads.txt.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Arrow Knight Support</title>
+<style>
+:root {
+  --bg: #F7F0E6;
+  --bg-bottom: #E9DCCB;
+  --surface: #FFFDF9;
+  --text: #3A2F27;
+  --muted: #6F5F51;
+  --accent: #0057A4;
+  --rule: #E3D6C5;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1E1915;
+    --bg-bottom: #15110E;
+    --surface: #2A231E;
+    --text: #F3EBE0;
+    --muted: #BFB0A0;
+    --accent: #7CB8FF;
+    --rule: #3B322B;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: linear-gradient(var(--bg), var(--bg-bottom)) fixed;
+  background-color: var(--bg);
+  color: var(--text);
+  font: 17px/1.6 ui-rounded, -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", Roboto, sans-serif;
+}
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px 16px 64px;
+}
+header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+header svg { flex: none; }
+h1 { font-size: 32px; line-height: 1.15; margin: 0; font-weight: 800; }
+h2 { font-size: 21px; margin: 36px 0 8px; font-weight: 750; }
+p, li { color: var(--text); }
+.meta { color: var(--muted); font-size: 15px; margin: 4px 0 24px; }
+.card {
+  background: var(--surface);
+  border-radius: 20px;
+  padding: 18px 20px;
+  margin: 20px 0;
+  box-shadow: 0 6px 18px rgba(58, 47, 39, 0.08);
+}
+.card p:first-child { margin-top: 0; }
+.card p:last-child, .card ul:last-child { margin-bottom: 0; }
+a { color: var(--accent); text-underline-offset: 2px; }
+ul { padding-left: 22px; }
+li + li { margin-top: 6px; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+th, td { text-align: left; vertical-align: top; padding: 8px 8px 8px 0; border-bottom: 1px solid var(--rule); }
+th { color: var(--muted); font-weight: 650; }
+.table-wrap { overflow-x: auto; }
+footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <svg width="44" height="44" viewBox="0 0 44 44" aria-hidden="true"><rect width="44" height="44" rx="12" fill="#0057A4"/><path d="M11 22h18m-7-8 8 8-8 8" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+  <h1>Arrow Knight</h1>
+</header>
+<p class="meta">A calm logic puzzle for iPhone. Slide every arrow off the board.</p>
+
+<div class="card">
+  <p><strong>Need help?</strong> Email <a href="mailto:knightgames.support@gmail.com">knightgames.support@gmail.com</a>.
+  Include your iPhone model and iOS version if something is not working, and we will reply as
+  soon as we can.</p>
+</div>
+
+<h2>Common questions</h2>
+<p><strong>How do I play?</strong> Tap an arrow and it slides off the board in the direction it
+points. If something is in the way, it bumps back and costs a heart. Clear every arrow to win.</p>
+<p><strong>I bought something. How do I get it on a new iPhone?</strong> Open Settings in the
+game, or the Shop, and tap Restore purchases. Consumables such as hints and coins cannot be
+restored once used.</p>
+<p><strong>Will my progress move to a new iPhone?</strong> Yes. When you are signed in to iCloud,
+your progress, coins, and themes sync between your devices automatically.</p>
+<p><strong>How do I turn daily reminders on or off?</strong> In the game, open Settings &gt; Daily
+reminder.</p>
+<p><strong>How do I change my ad privacy choices?</strong> In the game, open Settings &gt;
+Privacy choices (shown where the law requires it). Tracking can be changed in iOS Settings &gt;
+Privacy &amp; Security &gt; Tracking.</p>
+<p><strong>Can I turn off ads?</strong> Yes. Remove Ads (or the Starter Bundle) turns off banner
+and between level ads for good. Reward videos stay available but are always optional.</p>
+
+<h2>Privacy</h2>
+<p>Read the <a href="privacy.html">Privacy Policy</a>.</p>
+
+<footer>&copy; 2026 Lucas Knight</footer>
+</main>
+</body>
+</html>
